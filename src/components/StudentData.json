@@ -1,0 +1,20 @@
+[
+    {
+        "username":"tasin",
+        "number":"0123456799",
+        "Address":"Dhaka, Bangladesh",
+        "Role":"Student"
+    },
+        {
+        "username":"ahmed",
+        "number":"0123456009",
+        "Address":"Dhaka, Bangladesh",
+        "Role":"Student"
+    },
+        {
+        "username":"sourav",
+        "number":"0123400799",
+        "Address":"Dhaka, Bangladesh",
+        "Role":"Student"
+    }
+]

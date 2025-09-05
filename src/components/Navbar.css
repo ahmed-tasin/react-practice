@@ -1,0 +1,10 @@
+#listStyle li {
+    list-style: none;
+    display: inline;
+}
+
+#listStyle li a{
+    color: aqua;
+    text-decoration: none;
+    margin: 5px;
+}
