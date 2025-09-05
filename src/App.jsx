@@ -1,22 +1,20 @@
+import MyEvent from "./components/EventHandler"
 
-import StudentInfo  from "./components/StudentInfo"
-import StudentData from "./components/StudentData.json"
-import UniqueId from "./components/UniqueId"
 function App() {
 
-  console.log(StudentData)
+  // console.log(StudentData)
   return (
     <>
 
-    <UniqueId />
+    {/* <UniqueId />
 
     {StudentData.map((data)=> (
       < StudentInfo username={data.username} number={data.number} Address={data.Address} Role={data.Role} /> 
     ))}
+ */}
 
 
-
-      
+      <MyEvent />
       
 
     
