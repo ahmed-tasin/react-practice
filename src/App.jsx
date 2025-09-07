@@ -2,6 +2,7 @@ import MyEvent from "./components/EventHandler"
 import OnChange from "./components/EventHandler"
 import Parents from "./components/Parent"
 import Login from "./components/Login/Login"
+import MyList from "./components/User/MyList"
 
 
 function App() {
@@ -22,8 +23,10 @@ function App() {
       
       <Parents /> */}
 
-      <Login />
-    
+      {/* <Login />
+     */}
+
+      <MyList />
     </>
   )
 }
