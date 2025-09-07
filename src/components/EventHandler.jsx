@@ -1,22 +1,18 @@
 import { useState } from "react"
 
-function MyEvent(){
-    
-            const [message, setMessage] = useState("click The Button")
 
-            
+function OnChange(){
+        const [Message, setMessage] = useState("please write something in the inbox") 
 
-            const HandleClick = ()=> {
-                setMessage("Button was clicked")
-            }
-    
+        const handlechange = (e)=> {
+            setMessage(e.target.value)
+        }
     return(
         <>
-            <h3>{message}</h3>
-            <button onClick={HandleClick}>click me</button>
+            <h3>{Message}</h3>
+            <input type="text" onChange={handlechange} />
         </>
     )
 }
 
-
-export default MyEvent;
+export default OnChange;

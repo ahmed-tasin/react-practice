@@ -1,4 +1,8 @@
 import MyEvent from "./components/EventHandler"
+import OnChange from "./components/EventHandler"
+import Parents from "./components/Parent"
+import Login from "./components/Login/Login"
+
 
 function App() {
 
@@ -14,9 +18,11 @@ function App() {
  */}
 
 
-      <MyEvent />
+      {/* <MyEvent />
       
+      <Parents /> */}
 
+      <Login />
     
     </>
   )
